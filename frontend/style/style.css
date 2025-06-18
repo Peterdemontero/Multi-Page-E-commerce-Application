@@ -1,0 +1,359 @@
+.box {
+    position: relative;
+    width: 1110px;
+    height: 284px;
+  }
+  
+  .box .group {
+    position: fixed;
+    width: 1110px;
+    height: 284px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap-group-wrapper {
+    position: absolute;
+    width: 350px;
+    height: 284px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .box .overlap-group {
+    height: 285px;
+    position: relative;
+    width: 352px;
+    left: -1px;
+  }
+  
+  .box .mask {
+    top: 79px;
+    position: absolute;
+    width: 352px;
+    height: 206px;
+    left: 0;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    top: 195px;
+    left: 110px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.29px;
+    line-height: normal;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    top: 236px;
+    left: 147px;
+  }
+  
+  .box .shop {
+    top: -1px;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .box .path {
+    position: absolute;
+    width: 7px;
+    height: 11px;
+    top: 3px;
+    left: 52px;
+  }
+  
+  .box .oval-copy {
+    top: 144px;
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: 114px;
+    background-color: #000000;
+    border-radius: 62px / 10px;
+    filter: blur(21.75px);
+  }
+  
+  .box .image-removebg {
+    width: 123px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 115px;
+  }
+  
+  .box .overlap-wrapper {
+    position: absolute;
+    width: 350px;
+    height: 276px;
+    top: 8px;
+    left: 380px;
+    overflow: hidden;
+  }
+  
+  .box .overlap {
+    height: 278px;
+    position: relative;
+    width: 352px;
+    left: -1px;
+  }
+  
+  .box .mask-2 {
+    top: 72px;
+    position: absolute;
+    width: 352px;
+    height: 206px;
+    left: 0;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    top: 188px;
+    left: 126px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.29px;
+    line-height: normal;
+  }
+  
+  .box .group-2 {
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    top: 228px;
+    left: 147px;
+  }
+  
+  .box .oval-copy-2 {
+    top: 136px;
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: 114px;
+    background-color: #000000;
+    border-radius: 62px / 10px;
+    filter: blur(21.75px);
+  }
+  
+  .box .img {
+    width: 121px;
+    height: 146px;
+    position: absolute;
+    top: 0;
+    left: 115px;
+  }
+  
+  .box .div-wrapper {
+    position: absolute;
+    width: 350px;
+    height: 263px;
+    top: 21px;
+    left: 760px;
+    overflow: hidden;
+  }
+  
+  .box .overlap-2 {
+    height: 264px;
+    position: relative;
+    width: 352px;
+    left: -1px;
+  }
+  
+  .box .mask-3 {
+    top: 58px;
+    position: absolute;
+    width: 352px;
+    height: 206px;
+    left: 0;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .box .text-wrapper-3 {
+    position: absolute;
+    top: 174px;
+    left: 117px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.29px;
+    line-height: normal;
+  }
+  
+  .box .shop-2 {
+    top: 214px;
+    left: 147px;
+    position: absolute;
+    opacity: 0.5;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .box .path-2 {
+    position: absolute;
+    width: 7px;
+    height: 11px;
+    top: 218px;
+    left: 199px;
+  }
+  
+  .box .group-3 {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 0;
+    left: 113px;
+  }
+  
+  .box .oval {
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    top: 123px;
+    left: 114px;
+    background-color: #000000;
+    border-radius: 62px / 10px;
+    filter: blur(21.75px);
+  }
+  /* Original CSS code should be injected here */
+  
+  .box {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  .box .group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box .overlap-group-wrapper,
+  .box .overlap-wrapper,
+  .box .div-wrapper {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .box .overlap-group,
+  .box .overlap,
+  .box .overlap-2 {
+    position: relative;
+    height: 100%;
+  }
+  
+  .box .mask,
+  .box .mask-2,
+  .box .mask-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 206px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .box .text-wrapper,
+  .box .text-wrapper-2,
+  .box .text-wrapper-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Manrope-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.29px;
+  }
+  
+  .box .div,
+  .box .group-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .box .shop,
+  .box .shop-2 {
+    opacity: 0.5;
+    font-family: "Manrope-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .box .path,
+  .box .path-2 {
+    width: 7px;
+    height: 11px;
+  }
+  
+  .box .oval-copy,
+  .box .oval-copy-2,
+  .box .oval {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 124px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 62px / 10px; 
+    filter: blur(21.75px);
+  }
+  
+  .box .image-removebg,
+  .box .img,
+  .box .group-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .box .group {
+      flex-direction: column;
+    }
+  
+    .box .overlap-group-wrapper,
+    .box .overlap-wrapper,
+    .box .div-wrapper {
+      flex-basis: 100%;
+    }
+  }
