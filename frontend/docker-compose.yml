@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9300:8080"
+    volumes:
+      - .:/usr/share/nginx/html
+    restart: unless-stopped
